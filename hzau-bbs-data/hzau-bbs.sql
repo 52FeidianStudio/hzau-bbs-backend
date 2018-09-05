@@ -1,0 +1,10 @@
+USE hzau_bbs;
+
+CREATE TABLE user (
+id INTEGER PRIMARY KEY,
+username VARCHAR (20) NOT NULL,
+number VARCHAR (15) NOT NULL,
+email VARCHAR (50) NOT NULL,
+update_time TIMESTAMP DEFAULT now()
+create_time TIMESTAMP NOT NULL
+);
