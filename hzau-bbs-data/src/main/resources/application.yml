@@ -1,0 +1,23 @@
+# data source master
+datasource:
+  hzaubbs:
+    master:
+      url:
+      username:
+      password:
+      driver: com.mysql.cj.jdbc.Driver
+      type: com.alibaba.druid.pool.DruidDataSource
+#  filters: stat
+#  maxActive: 90
+#  initialSize: 10
+#  maxWait: 60000
+#  minIdle: 1
+#  maxIdle: 90
+#  timeBetweenEvictionRunsMillis: 60000
+#  minEvictableIdleTimeMillis: 300000
+#  validationQuery: select 'x'
+#  testWhileIdle: true
+#  testOnBorrow: false
+#  testOnReturn: false
+#  poolPreparedStatements: true
+#  maxOpenPreparedStatements: 20
