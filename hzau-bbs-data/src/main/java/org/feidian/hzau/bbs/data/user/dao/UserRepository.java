@@ -8,5 +8,5 @@ import org.springframework.data.repository.CrudRepository;
  * @date 2018-09-06
  * @time 上午1:48
  */
-public interface UserDao extends CrudRepository<User, Long> {
+public interface UserRepository extends CrudRepository<User, Long> {
 }
