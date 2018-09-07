@@ -7,4 +7,4 @@
 Spring boot + MyBatis
 
 ## start up
-运行 HzauBbsWebApplication.main() 
+运行 HzauWebApplication.main() 

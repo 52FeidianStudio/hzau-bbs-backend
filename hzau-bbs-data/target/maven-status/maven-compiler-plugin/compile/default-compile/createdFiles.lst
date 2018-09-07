@@ -1,0 +1,4 @@
+org/feidian/hzau/bbs/data/entity/User.class
+org/feidian/hzau/bbs/data/JavaConfig.class
+org/feidian/hzau/bbs/data/dao/mapper/UserMapper.class
+org/feidian/hzau/bbs/data/HzauDataStarterUp.class
