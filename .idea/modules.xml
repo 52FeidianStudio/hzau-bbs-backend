@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/hzau-bbs-backend.iml" filepath="$PROJECT_DIR$/.idea/hzau-bbs-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hzau-bbs-core/hzau-bbs-core.iml" filepath="$PROJECT_DIR$/hzau-bbs-core/hzau-bbs-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hzau-bbs-data/hzau-bbs-data.iml" filepath="$PROJECT_DIR$/hzau-bbs-data/hzau-bbs-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hzau-bbs-service/hzau-bbs-service.iml" filepath="$PROJECT_DIR$/hzau-bbs-service/hzau-bbs-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hzau-bbs-web/hzau-bbs-web.iml" filepath="$PROJECT_DIR$/hzau-bbs-web/hzau-bbs-web.iml" />
+    </modules>
+  </component>
+</project>
