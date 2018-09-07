@@ -1,5 +1,6 @@
 package org.feidian.hzau.bbs.web.controller;
 
+import org.feidian.hzau.bbs.data.entity.User;
 import org.feidian.hzau.bbs.web.Login;
 import org.feidian.hzau.bbs.web.constant.CoreConstants;
 import org.springframework.web.context.request.RequestAttributes;
@@ -11,8 +12,8 @@ import org.springframework.web.context.request.RequestContextHolder;
  */
 public class BaseController {
 
-    public Login getLogin() {
-        Login login = (Login) RequestContextHolder.getRequestAttributes().getAttribute(CoreConstants.CURRENT_LOGIN, RequestAttributes.SCOPE_SESSION);
-        return login;
+    public User getUser() {
+        User user = (User) RequestContextHolder.getRequestAttributes().getAttribute(CoreConstants.CURRENT_LOGIN, RequestAttributes.SCOPE_SESSION);
+        return user;
     }
 }

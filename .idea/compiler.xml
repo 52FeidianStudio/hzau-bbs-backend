@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hzau-bbs-core" />
         <module name="hzau-bbs-data" />
         <module name="hzau-bbs-service" />
         <module name="hzau-bbs-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="hzau-bbs-backend" target="1.5" />
-      <module name="hzau-bbs-data" target="1.5" />
-      <module name="hzau-bbs-service" target="1.5" />
+      <module name="hzau-bbs-backend" target="1.8" />
+      <module name="hzau-bbs-core" target="1.8" />
+      <module name="hzau-bbs-data" target="1.8" />
+      <module name="hzau-bbs-service" target="1.8" />
       <module name="hzau-bbs-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
