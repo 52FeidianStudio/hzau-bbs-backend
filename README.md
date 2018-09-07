@@ -8,3 +8,6 @@ Spring boot + MyBatis
 
 ## start up
 运行 HzauWebApplication.main() 
+
+## develop plan
+预备2019年初正式启动开发计划
