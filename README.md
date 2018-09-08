@@ -1,13 +1,17 @@
-# 华农BBS
+# 华农狮山BBS后端
 
-## introduction
-华农官方BBS后端
+## 介绍
+[华农狮山BBS后端](https://github.com/52FeidianStudio/hzau-bbs-backend)
 
-## framework
+[华农狮山BBS快速开发](https://github.com/52FeidianStudio/hzau-bbs)
+
+[华农狮山BBS前端](https://github.com/52FeidianStudio/hzau-bbs-frontend)
+
+## 框架
 Spring boot + MyBatis
 
-## start up
+## 启动
 运行 HzauWebApplication.main() 
 
-## develop plan
+## 计划
 预备2019年初正式启动开发计划

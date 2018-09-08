@@ -1,8 +1,6 @@
 package org.feidian.hzau.bbs.service.user;
 
-import org.feidian.hzau.bbs.data.entity.User;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+import org.feidian.hzau.bbs.data.user.entity.User;
 
 import java.util.List;
 
