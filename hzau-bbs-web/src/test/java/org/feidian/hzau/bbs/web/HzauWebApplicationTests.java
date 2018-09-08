@@ -1,7 +1,8 @@
 package org.feidian.hzau.bbs.web;
 
 import lombok.extern.slf4j.Slf4j;
-import org.feidian.hzau.bbs.data.entity.User;
+import org.feidian.hzau.bbs.core.constant.EnableEnum;
+import org.feidian.hzau.bbs.data.user.entity.User;
 import org.feidian.hzau.bbs.service.user.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -25,5 +26,16 @@ public class HzauWebApplicationTests {
     public void getAll() {
         List<User> users = userService.getAll();
         log.info(users.toString());
+    }
+
+    @Test
+    public void createUser() {
+        User user = new User();
+        user.setUsername("王成");
+        user.setNumber("2014317200212");
+        user.setEmail("wangcheng10@xiaomi.com");
+        user.setMobile("17764224396");
+        user.setEnable(EnableEnum.DISABLE);
+        userService.create(user);
     }
 }

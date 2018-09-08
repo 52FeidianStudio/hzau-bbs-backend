@@ -2,6 +2,7 @@ package org.feidian.hzau.bbs.core.constant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import org.feidian.hzau.bbs.core.Describable;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,11 +14,11 @@ import java.util.Map;
  */
 @Getter
 @AllArgsConstructor
-public enum EnableEnum {
+public enum EnableEnum implements Describable {
     ENABLE(1, "ENABLE"),
     DISABLE(0, "DISABLE");
 
-    private final Integer id;
+    private final int id;
     private final String code;
 
     private static final Map<Integer, String> idCodeMap = new HashMap();
