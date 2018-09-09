@@ -6,6 +6,7 @@ import org.apache.ibatis.type.MappedJdbcTypes;
 import org.apache.ibatis.type.MappedTypes;
 import org.feidian.hzau.bbs.core.Describable;
 import org.feidian.hzau.bbs.core.constant.EnableEnum;
+import org.feidian.hzau.bbs.core.constant.YesNoEnum;
 
 import java.sql.CallableStatement;
 import java.sql.PreparedStatement;
@@ -21,7 +22,7 @@ import java.util.Map;
  * @Date Created in 2018/3/10 20:17
  */
 @MappedJdbcTypes({JdbcType.TINYINT, JdbcType.SMALLINT, JdbcType.INTEGER, JdbcType.BIGINT})
-@MappedTypes({EnableEnum.class})
+@MappedTypes({EnableEnum.class, YesNoEnum.class})
 public class EnumToIdTypeHandler<T extends Enum & Describable> extends BaseTypeHandler<T> {
 
     private final Map<Integer, T> idMap = new HashMap();

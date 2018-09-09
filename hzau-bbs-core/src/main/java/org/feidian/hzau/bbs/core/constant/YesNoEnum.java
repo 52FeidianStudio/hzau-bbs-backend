@@ -2,6 +2,7 @@ package org.feidian.hzau.bbs.core.constant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import org.feidian.hzau.bbs.core.Describable;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +14,7 @@ import java.util.Map;
  */
 @Getter
 @AllArgsConstructor
-public enum YesNoEnum {
+public enum YesNoEnum implements Describable {
     YES(1, "YES"),
     NO(0, "NO");
 
