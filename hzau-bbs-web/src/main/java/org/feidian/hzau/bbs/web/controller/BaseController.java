@@ -1,6 +1,6 @@
 package org.feidian.hzau.bbs.web.controller;
 
-import org.feidian.hzau.bbs.data.user.entity.User;
+import org.feidian.hzau.bbs.data.entity.User;
 import org.feidian.hzau.bbs.web.constant.CoreConstants;
 import org.springframework.web.context.request.RequestAttributes;
 import org.springframework.web.context.request.RequestContextHolder;

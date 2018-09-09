@@ -2,7 +2,7 @@ package org.feidian.hzau.bbs.web;
 
 import lombok.extern.slf4j.Slf4j;
 import org.feidian.hzau.bbs.core.constant.EnableEnum;
-import org.feidian.hzau.bbs.data.user.entity.User;
+import org.feidian.hzau.bbs.data.entity.User;
 import org.feidian.hzau.bbs.service.user.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,7 +23,7 @@ public class HzauWebApplicationTests {
     private UserService userService;
 
     @Test
-    public void getAll() {
+    public void getAllUsers() {
         List<User> users = userService.getAll();
         log.info(users.toString());
     }

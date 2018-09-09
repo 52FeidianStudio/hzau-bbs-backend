@@ -1,8 +1,8 @@
-package org.feidian.hzau.bbs.data.user.dao.mapper;
+package org.feidian.hzau.bbs.data.dao.mapper;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
-import org.feidian.hzau.bbs.data.user.entity.User;
+import org.feidian.hzau.bbs.data.entity.User;
 
 import java.util.List;
 import java.util.Set;

@@ -2,7 +2,7 @@ package org.feidian.hzau.bbs.web.controller;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.feidian.hzau.bbs.data.user.entity.User;
+import org.feidian.hzau.bbs.data.entity.User;
 import org.feidian.hzau.bbs.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

@@ -48,12 +48,6 @@ public class DataSourceMasterConfig {
 //    @ConfigurationProperties(prefix = ConfigConstants.DS_HZAU_MASTER_PREFIX)
     public DataSource hzauMasterDataSource() throws SQLException {
         log.info("-------------------- hzau bbs master data source init ---------------------");
-//        DruidDataSource ds = new DruidDataSource();
-//        ds.setDriverClassName(driverClassName);
-//        ds.setUrl(url);
-//        ds.setUsername(username);
-//        ds.setPassword(password);
-//        return ds;
         return DruidDataSourceBuilder.create().build(environment, ConfigConstants.DS_HZAU_MASTER_PREFIX);
     }
 

@@ -1,7 +1,7 @@
 package org.feidian.hzau.bbs.service.user.impl;
 
-import org.feidian.hzau.bbs.data.user.dao.mapper.UserMapper;
-import org.feidian.hzau.bbs.data.user.entity.User;
+import org.feidian.hzau.bbs.data.dao.mapper.UserMapper;
+import org.feidian.hzau.bbs.data.entity.User;
 import org.feidian.hzau.bbs.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package org.feidian.hzau.bbs.data.user.entity;
+package org.feidian.hzau.bbs.data.entity;
 
 import lombok.Getter;
 import lombok.Setter;
